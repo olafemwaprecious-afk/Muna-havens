@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Owner dashboard — Muna’s Haven</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#382724" />
+    <meta name="color-scheme" content="light" />
+    <!-- Resolves assets and share links against the SITE root, not /owner/. -->
+    <meta name="mh-root" content="../" />
+    <link rel="icon" href="../assets/img/mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../assets/css/tokens.css" />
+    <link rel="stylesheet" href="../assets/css/dashboard.css" />
+  </head>
+  <body class="mh-owner">
+    <a class="mh-skip" href="#mh-owner-main">Skip to dashboard</a>
+    <p id="mh-route-status" class="mh-visually-hidden" role="status" aria-live="polite"></p>
+
+    <!-- Generated locally by `npm run build`; never committed. -->
+    <script src="../assets/js/config.js" onerror="window.__MH_NO_CONFIG__=true"></script>
+
+    <div id="mh-owner-root">
+      <!-- The dashboard replaces this while signing in; it stays readable if
+           JavaScript is off, so the page never looks broken. -->
+      <div class="mh-login">
+        <div class="mh-login__card">
+          <img class="mh-login__mark" src="../assets/img/mark.svg" alt="" width="44" height="44" />
+          <h1>Muna’s Haven</h1>
+          <p class="mh-login__sub">Owner dashboard — private area</p>
+          <p class="mh-notice mh-notice--info" style="font-size: var(--mh-text-sm)">
+            Loading the sign-in form…
+          </p>
+          <noscript>
+            <p class="mh-notice mh-notice--error" style="font-size: var(--mh-text-sm)">
+              JavaScript is required to sign in, because authentication is handled
+              by Supabase directly in the browser. The public catalogue does not
+              need an account.
+            </p>
+          </noscript>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="../assets/js/owner-app.js"></script>
+  </body>
+</html>

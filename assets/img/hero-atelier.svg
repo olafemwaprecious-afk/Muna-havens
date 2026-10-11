@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Muna’s Haven — hair and jewellery edit</title>
+  <desc id="desc">An elegant illustrative composition showing a full bob wig on a stand beside a sparkling jewellery set, in the brand colours of dusty blush pink, warm ivory and champagne gold.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF9F4"/>
+      <stop offset="55%" stop-color="#FDF3F4"/>
+      <stop offset="100%" stop-color="#F6E3E6"/>
+    </linearGradient>
+    <linearGradient id="silk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D9A0A7"/>
+      <stop offset="100%" stop-color="#C6A46A"/>
+    </linearGradient>
+    <linearGradient id="hairshade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4A332F"/>
+      <stop offset="100%" stop-color="#2A1D1B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="1080" fill="url(#bg)"/>
+
+  <!-- Architectural arch -->
+  <path d="M450 96c-151 0-273 122-273 273v545h546V369C723 218 601 96 450 96Z"
+        fill="none" stroke="#C6A46A" stroke-width="2.5" opacity="0.55"/>
+  <path d="M450 132c-130 0-236 106-236 236v510h472V368c0-130-106-236-236-236Z"
+        fill="url(#glow)" opacity="0.7"/>
+
+  <!-- Pedestal -->
+  <rect x="286" y="806" width="328" height="16" rx="8" fill="#C6A46A" opacity="0.4"/>
+  <rect x="312" y="822" width="276" height="88" rx="10" fill="#FFF9F4" stroke="#C6A46A" stroke-width="2"/>
+  <text x="450" y="874" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="34" letter-spacing="7" fill="#382724" opacity="0.82">MUNA’S HAVEN</text>
+
+  <!-- Wig on a mannequin head -->
+  <g transform="translate(450 486)">
+    <ellipse cx="0" cy="196" rx="104" ry="16" fill="#382724" opacity="0.08"/>
+    <rect x="-16" y="150" width="32" height="72" rx="12" fill="url(#silk)" opacity="0.8"/>
+    <ellipse cx="0" cy="222" rx="62" ry="14" fill="#C6A46A" opacity="0.55"/>
+
+    <path d="M-96 6c0-84 43-140 96-140s96 56 96 140c0 60-14 106-38 138-16 21-36 32-58 32s-42-11-58-32C-82 112-96 66-96 6Z"
+          fill="url(#hairshade)"/>
+    <path d="M-78-16c14-52 40-84 78-84s64 32 78 84" fill="none" stroke="#6B4A44" stroke-width="3" opacity="0.5"/>
+    <path d="M-58 148c-8-56-6-112 6-166M-20 168c-6-62-4-124 6-184M22 168c6-62 6-124 0-184M58 148c8-56 6-112-4-166"
+          fill="none" stroke="#8A635B" stroke-width="2.4" opacity="0.5" stroke-linecap="round"/>
+
+    <!-- Lace parting -->
+    <path d="M0-134v120" stroke="#FFF9F4" stroke-width="9" opacity="0.5" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-128" rx="46" ry="17" fill="#D9A0A7" opacity="0.32"/>
+    <ellipse cx="0" cy="-128" rx="46" ry="17" fill="none" stroke="#C6A46A" stroke-width="1.6" opacity="0.7"/>
+  </g>
+
+  <!-- Jewellery set, lower left -->
+  <g transform="translate(196 838) scale(0.86)">
+    <g fill="none" stroke="#C6A46A" stroke-width="4" stroke-linecap="round" opacity="0.85">
+      <path d="M-84-58c0 47 26 76 60 76s60-29 60-76"/>
+      <path d="M-84-58h120"/>
+    </g>
+    <circle cx="-24" cy="26" r="15" fill="url(#silk)" opacity="0.85"/>
+    <circle cx="-24" cy="26" r="15" fill="none" stroke="#382724" stroke-width="2.2" opacity="0.55"/>
+    <circle cx="-28" cy="21" r="3.4" fill="#FFF9F4" opacity="0.9"/>
+    <g fill="none" stroke="#C6A46A" stroke-width="3.4" opacity="0.8">
+      <circle cx="70" cy="24" r="20"/>
+      <circle cx="70" cy="24" r="8" fill="url(#silk)" fill-opacity="0.65"/>
+    </g>
+    <path d="M108 62h64M108 78h44" stroke="#C6A46A" stroke-width="3.4" opacity="0.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Sparkle accents (restrained) -->
+  <g fill="#C6A46A" opacity="0.6">
+    <path d="M680 268l6 15 15 6-15 6-6 15-6-15-15-6 15-6z"/>
+    <path d="M224 300l4 11 11 4-11 4-4 11-4-11-11-4 11-4z" opacity="0.75"/>
+    <path d="M700 700l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
+  </g>
+
+  <text x="450" y="1000" text-anchor="middle" font-family="Georgia, serif" font-size="21"
+        fill="#382724" opacity="0.62" font-style="italic">Hair &amp; jewellery, chosen with care</text>
+  <text x="450" y="1036" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13"
+        letter-spacing="3.2" fill="#382724" opacity="0.4">ILLUSTRATIVE BRAND ARTWORK — NOT PRODUCT PHOTOGRAPHY</text>
+</svg>

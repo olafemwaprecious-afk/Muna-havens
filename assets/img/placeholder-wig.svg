@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="t d">
+  <title id="t">Illustrative placeholder for Pure Human Hair — Full Bob Closure</title>
+  <desc id="d">A neutral brand illustration of a wig on a stand. This is not a photograph of the actual product for sale.</desc>
+  <rect width="400" height="400" fill="#FDF3F4"/>
+  <g stroke="#C6A46A" stroke-width="1" fill="none" opacity="0.5">
+    <circle cx="200" cy="200" r="168"/>
+    <circle cx="200" cy="200" r="152"/>
+  </g>
+  <g fill="none" stroke="#382724" stroke-width="3" stroke-linecap="round" opacity="0.78">
+    <path d="M118 196c0-46 37-74 82-74s82 28 82 74"/>
+    <path d="M118 196c-9 10-13 22-13 36 0 26 13 44 33 52"/>
+    <path d="M282 196c9 10 13 22 13 36 0 26-13 44-33 52"/>
+    <path d="M138 284c14 12 36 18 62 18s48-6 62-18"/>
+  </g>
+  <g fill="#D9A0A7" opacity="0.42">
+    <path d="M126 200c0-42 33-68 74-68s74 26 74 68c0 30-14 52-38 62-11 5-23 7-36 7s-25-2-36-7c-24-10-38-32-38-62z"/>
+  </g>
+  <g fill="none" stroke="#382724" stroke-width="3" stroke-linecap="round" opacity="0.55">
+    <path d="M170 288v34M230 288v34M156 330h88"/>
+    <path d="M200 330v28M174 366h52"/>
+  </g>
+  <g opacity="0.7">
+    <path d="M150 150h100" stroke="#C6A46A" stroke-width="2" stroke-dasharray="4 6"/>
+  </g>
+  <text x="200" y="392" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#382724" opacity="0.6">Illustrative image — not the actual product</text>
+</svg>

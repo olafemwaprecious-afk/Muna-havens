@@ -1,0 +1,21 @@
+# Local secrets and generated configuration — never commit
+.env
+.env.*
+!.env.example
+assets/js/config.js
+
+# Node / tooling
+node_modules/
+npm-debug.log*
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Scratch image search results are never part of the project
+image-search/
+
+# Generated deploy output
+_site/

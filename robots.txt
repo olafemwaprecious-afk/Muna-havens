@@ -1,0 +1,11 @@
+# The catalogue is public and meant to be found. The owner dashboard is not,
+# and it is additionally marked noindex in its own document — both are stated so
+# a crawler that never fetched the page still has the instruction.
+User-agent: *
+Allow: /
+Disallow: /Muna-havens/owner/
+
+# No Sitemap: line on purpose. This site is a single-page catalogue whose routes
+# live after a `#`, and a crawler cannot follow those; listing the root URL here
+# would add a file nobody can use. Search engines discover the storefront from the
+# links shared on WhatsApp and Instagram, which is where customers actually arrive.

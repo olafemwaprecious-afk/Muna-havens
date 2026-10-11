@@ -163,7 +163,7 @@ itself is worse than none:
 npm run check                     # brand rules, secret scan, migration safety
 node scripts/build.mjs && npm start
 # then, on the deployed site:
-/Tools/access-check.html → Run the checks
+<site>/tools/access-check.html → press “Run the checks”
 ```
 
 and in Supabase:
@@ -171,6 +171,7 @@ and in Supabase:
 ```
 db/migrations/0005_muna_haven_verification.sql   # runs in a transaction, rolls back
 ```
+and on the deployed site, `https://<owner>.github.io/Muna-havens/tools/access-check.html`.
 
 The results of the last two cannot be produced from this repository — they need
 your project and your browser. Treat "secured by RLS" as *claimed* until those
